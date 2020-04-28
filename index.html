@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practical Question3</title>
+		<script src="https://use.fontawesome.com/0b77f3d36a.js"></script>
+
+		<style type="text/css">
+			img{
+				width: 150px;
+				height: 90px;
+			}
+
+			.all{
+				border: 10px solid red;
+				margin:5px;
+				background-color: rgb(0, 0, 52);
+			}
+
+			 .button td{
+				border: 1px solid white;
+				padding:2px;
+				color: black;
+				margin: 5px;
+			}
+
+			.button{
+				border-spacing: 5px;
+				border-collapse: collapse;
+				width: 100%;
+
+			}
+
+			.control{
+				background-color: 	rgb(223, 223, 222);
+			}
+
+			*{
+				color: white;
+
+			}
+
+			select{
+				color: black;
+			}
+
+			.space{
+				height: 5px;
+			}
+
+			.title, .player{
+				text-align: center;
+
+			}
+
+			.left{
+				border-right: 1px solid red;
+			}
+
+			.title{
+				border-bottom: 1px solid red;
+			}
+
+			.player{
+				border-bottom: 1px solid red;
+				border-top: 1px solid red;
+			}		
+
+		</style>
+</head>
+<body>
+
+	<table class="all">
+		
+		<tr>
+			<td class="title" colspan="2">Mario Game <i class="fa fa-heart" aria-hidden="true"></i> Sonic Game</td>
+		</tr>
+
+		<tr>
+			<td class="left">
+				<div>New Player Name:</div>
+				<input type="text" name="name">
+
+				<div><input type="radio" name="easy" >Easy</div>
+				<div><input type="radio" name="medium" >Medium</div>
+				<div><input type="radio" name="difficult" >Difiicult</div>
+
+				<div class="space"></div>
+
+				<select>
+					<option>Group 1</option>
+					<option>Group 2</option>
+					<option>Group 3</option>
+				</select>
+
+				<div class="space"></div>
+
+				<h3>Start now !!!</h3>
+
+			</td>
+
+			<td class="right">
+
+				<img src="mario.jpg">
+
+				<div class="player">Player: Terry</div>
+
+				<table class="button">
+					<tr>
+						<td></td>
+						<td class="control">Push U</td>
+						<td></td>
+					</tr>
+
+					<tr>
+						<td class="control">Push L</td>
+						<td></td>
+						<td class="control">Push R</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td class="control">Push D</td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
